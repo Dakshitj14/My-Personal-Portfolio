@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me | Dakshit - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            text-decoration: none;
+            color: beige;
+
+            margin: 0;
+            padding: 0;
+
+        }
+
+        body {
+            background-image: url('jeremy-bishop-G9i_plbfDgk-unsplash.jpg');
+            background-size: cover;
+
+            background-repeat: no-repeat;
+
+            background-position: center;
+
+        }
+
+        nav {
+            background-image: url('jeremy-bishop-G9i_plbfDgk-unsplash.jpg');
+            background-size: cover;
+
+            background-position: center;
+
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 25px;
+            color: beige;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+
+        }
+
+        nav ul li a:hover {
+            color: yellow;
+            font-size: 1.01rem;
+
+
+        }
+
+        .left {
+            color: beige;
+            font-size: 2.5rem;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            background-color: black;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .profile {
+            display: flex;
+            align-items: center;
+        }
+
+        .profile img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+
+        .profile h1 {
+            color: beige;
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        .profile p {
+            margin-top: 10px;
+            font-size: 1.2rem;
+            color: #666;
+        }
+
+        .bio {
+            color: beige;
+            margin-top: 20px;
+            line-height: 1.8;
+        }
+
+        .social-links {
+            color: beige;
+            margin-top: 20px;
+        }
+
+        .social-links a {
+            display: inline-block;
+            margin-right: 10px;
+            color: #333;
+            text-decoration: none;
+            font-size: 1.5rem;
+        }
+
+        @media (max-width: 768px) {
+            .profile {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .profile img {
+                margin-bottom: 10px;
+            }
+        }
+
+        hr {
+            border: 0;
+            background-color: blueviolet;
+            height: 1.2px;
+            margin: 40px 85px;
+        }
+
+        footer {
+            color: rgb(179, 177, 177);
+            background-color: rgb(24, 24, 52);
+
+
+        }
+
+        .footer {
+            display: flex;
+            margin: 25px 123px;
+            justify-content: space-evenly;
+
+
+        }
+
+        .footer ul {
+            list-style: none;
+
+        }
+
+        .footer>div {
+            width: 123px;
+        }
+
+        footer .footer-textcentre {
+            text-align: center;
+            color: rgb(179, 177, 177);
+            background-color: black;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Dakshit's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="#">More</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="profile">
+            <img src="dummy.png" alt="Profile Picture">
+            <div>
+                <h1>DAKSHIT JHA </h1>
+                <p>Web Developer</p>
+            </div>
+        </div>
+        <div class="bio">
+            <h2>About Me</h2>
+            <p>Hey there! I'm Dakshit Jha, a passionate Developer who loves bringing creative ideas to life. Whether
+                it's designing stunning visuals, crafting user-friendly interfaces, or building seamless web
+                experiences, I'm all about turning concepts into reality. </p>
+            <p> When I'm not immersed in my work, you can find me volleyball &#128518, always on the lookout for new
+                adventures and inspirations.</p>
+        </div>
+        <div class="social-links">
+            <a href="https://twitter.com/johndoe" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://linkedin.com/in/johndoe" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/johndoe" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+
+
+    </div>
+    <hr>
+
+
+
+    <footer>
+        <div class="footer">
+            <div class="first">
+                <h3>Dakshit's Developer Portfolio</h3>
+            </div>
+            <div class="second">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="#">More</a></li>
+                </ul>
+            </div>
+            <div class="third">
+                <ul>
+                    <li><a href="https://www.instagram.com/dakshit_j14/">Instgram</a></li>
+                    <li><a href="https://x.com/DakshitJha">Twitter</a></li>
+                    <li><a href="https://www.threads.net/@dakshit_j14">Threads</a></li>
+                    <li><a href="https://www.linkedin.com/in/dakshit-jha-bb3977233/">linkedIn</a></li>
+                    <li><a href="https://github.com/Dakshitj14">GitHub</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-textcentre">
+            Copyright &#169 dakshit'sportfolio.com | All rights reserved.
+        </div>
+    </footer>
+</body>
+
+</html>

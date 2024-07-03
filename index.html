@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dakshit - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            text-decoration: none;
+            color: beige;
+            margin: 0;
+            padding: 0;
+
+
+        }
+
+        body {
+            background-image: url('jeremy-bishop-G9i_plbfDgk-unsplash.jpg');
+            background-size: cover;
+
+            background-repeat: no-repeat;
+
+            background-position: center;
+
+        }
+
+        nav {
+            background-image: url('jeremy-bishop-G9i_plbfDgk-unsplash.jpg');
+            background-size: cover;
+
+            background-position: center;
+
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 25px;
+            color: beige;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+
+        }
+
+        nav ul li a:hover {
+            color: yellow;
+            font-size: 1.01rem;
+
+
+        }
+
+        .left {
+            color: beige;
+            font-size: 2.5rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 130px 0;
+
+
+        }
+
+        .firstsection>div {
+            width: 30%;
+        }
+
+
+        .secondsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondsection h1 {
+            color: beige;
+            font-size: 2rem;
+
+        }
+
+        .secondsection .box {
+            background-color: beige;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+
+
+        }
+
+        .secondsection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: bisque;
+            margin: 0 99px;
+
+        }
+
+        .imgtop {
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+
+        }
+
+        .vertical-title {
+            color: beige;
+            position: relative;
+            top: 75px;
+            width: 150px;
+            font-size: 1.06rem;
+
+
+
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 86px;
+            color: rgb(179, 177, 177);
+            width: 150px;
+            font-size: 9px;
+            font-size: 1.01rem;
+
+
+
+        }
+
+
+        .text-grey {
+            color: rgb(179, 177, 177);
+        }
+
+        .leftsection {
+            color: white;
+            font-size: 3rem;
+
+        }
+
+        .leftsection #connectbtn {
+            padding: 12px;
+            background-color: rgb(50, 4, 89);
+            color: beige;
+            border: 2px solid whitesmoke;
+            font-size: 20px;
+            cursor: pointer;
+            border-radius: 25px;
+        }
+
+        .leftsection #connectbtn:hover {
+
+            background-color: rgb(81, 14, 140);
+
+        }
+
+
+        .rightsection img {
+            width: 80%;
+            margin: 10px 0;
+        }
+
+        .purple {
+            color: blueviolet;
+        }
+
+        #element {
+            color: blueviolet;
+        }
+
+        main hr {
+            border: 0;
+            background-color: blueviolet;
+            height: 1.2px;
+            margin: 40px 85px;
+        }
+
+        hr {
+            border: 0;
+            background-color: blueviolet;
+            height: 1.2px;
+            margin: 40px 85px;
+        }
+
+        footer {
+            color: rgb(179, 177, 177);
+            background-color: rgb(24, 24, 52);
+
+
+        }
+
+        .footer {
+            display: flex;
+            margin: 25px 123px;
+            justify-content: space-evenly;
+
+
+        }
+
+        .footer ul {
+            list-style: none;
+
+        }
+
+        .footer>div {
+            width: 123px;
+        }
+
+        footer .footer-textcentre {
+            text-align: center;
+            color: rgb(179, 177, 177);
+            background-color: black;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Dakshit's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="#">More</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Sections -->
+        <section class="firstsection">
+            <div class="leftsection">
+                Hey! I'm <span class="purple">Dakshit</span>
+                <div> and I'm passionate</div><span id="element"></span>
+                <div class="button">
+                    <button id="connectbtn">Lets Connect ! </button>
+                    <script>
+                        document.getElementById('connectbtn').addEventListener('click', function () {
+                            window.location.href = 'https://linktr.ee/Dakshit_j1428';
+                        });
+                    </script>
+
+                </div>
+
+            </div>
+            <div class="rightsection">
+                <img src="dummy.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondsection">
+            <span class="text-grey">What I learnt so far...</span>
+            <h1>Learning...</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="imgtop" src="html.png" alt="">
+                    <div class="vertical-title">
+                        HTML Developer
+                    </div>
+                    <div class="vertical-desc">Creative HTML developer specializing in responsive, user-friendly web
+                        designs</div>
+
+                </div>
+                <div class="vertical">
+                    <img class="imgtop" src="css-3.png" alt="">
+                    <div class="vertical-title">
+                        CSS-3 Developer
+                    </div>
+                    <div class="vertical-desc">Passionate CSS3 developer crafting responsive, visually stunning,
+                        user-friendly web designs.</div>
+
+                </div>
+                <div class="vertical">
+                    <img class="imgtop" src="java-script.png" alt="">
+                    <div class="vertical-title">
+                        JAVA-SCRIPT Developer
+                    </div>
+                    <div class="vertical-desc">Innovative JavaScript developer crafting dynamic, interactive web
+                        experiences efficiently</div>
+
+                </div>
+                <div class="vertical">
+                    <img class="imgtop" src="nodejs.png" alt="">
+                    <div class="vertical-title">
+                        NODE.JS Developer
+                    </div>
+                    <div class="vertical-desc">Passionate Node.js developer creating scalable, efficient, and innovative
+                        backend solutions</div>
+
+                </div>
+                <div class="vertical">
+                    <img class="imgtop" src="loading.png" alt="">
+                    <div class="vertical-title">
+                        SO ON...
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+    </main>
+    <hr>
+
+    <footer>
+        <div class="footer">
+            <div class="first">
+                <h3>Dakshit's Developer Portfolio</h3>
+            </div>
+            <div class="second">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="#">More</a></li>
+                </ul>
+            </div>
+            <div class="third">
+                <ul><li><a href="https://www.instagram.com/dakshit_j14/">Instgram</a></li>
+                    <li><a href="https://x.com/DakshitJha">Twitter</a></li>
+                    <li><a href="https://www.threads.net/@dakshit_j14">Threads</a></li>
+                    <li><a href="https://www.linkedin.com/in/dakshit-jha-bb3977233/">linkedIn</a></li>
+                    <li><a href="https://github.com/Dakshitj14">GitHub</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-textcentre">
+            Copyright &#169 dakshit'sportfolio.com | All rights reserved.
+        </div>
+    </footer>
+
+
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Web Designer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>

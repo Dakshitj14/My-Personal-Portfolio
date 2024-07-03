@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Dakshit - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            text-decoration: none;
+            color: beige;
+           
+            padding: 0;
+
+
+        }
+
+        body {
+            background-image: url('jeremy-bishop-G9i_plbfDgk-unsplash.jpg');
+            background-size: cover;
+
+            background-repeat: no-repeat;
+
+            background-position: center;
+
+        }
+
+        nav {
+            background-image: url('jeremy-bishop-G9i_plbfDgk-unsplash.jpg');
+            background-size: cover;
+
+            background-position: center;
+
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 25px;
+            color: beige;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+
+        }
+
+        nav ul li a:hover {
+            color: yellow;
+            font-size: 1.01rem;
+
+
+        }
+
+        .left {
+            color: beige;
+            font-size: 2.5rem;
+        }
+
+        hr {
+            border: 0;
+            background-color: blueviolet;
+            height: 1.2px;
+            margin: 40px 85px;
+        }
+
+        footer {
+            color: rgb(179, 177, 177);
+            background-color: rgb(24, 24, 52);
+
+
+        }
+
+        .footer {
+            display: flex;
+            margin: 25px 123px;
+            justify-content: space-evenly;
+
+
+        }
+
+        .footer ul {
+            list-style: none;
+
+        }
+
+        .footer>div {
+            width: 123px;
+        }
+
+        footer .footer-textcentre {
+            text-align: center;
+            color: rgb(179, 177, 177);
+            background-color: black;
+
+        }
+
+        
+
+        main {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        article {
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        article a {
+            display: block;
+            text-align: center;
+            background-color: black;
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+
+        
+    </style>
+</head>
+
+<body>
+    <header>
+    <nav>
+        <div class="left">Dakshit's Portfolio</div>
+        <div class="right">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="#">More</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+    <main>
+        <section class="projects">
+            <article>
+                <h2>Project 1-login page </h2>
+                <p>I designed a login page using HTML and CSS. The goal was to create a clean, user-friendly, and
+                    visually appealing platform to showcase my skills..</p>
+                <a href="https://github.com/Dakshitj14/Login_Page" target="_blank">View Code</a>
+            </article>
+            <article>
+                <h2>Project 2-myonlinemeal</h2>
+                <p>I designed and developed a online meal website using HTML and CSS. The goal was to create a clean,
+                    user-friendly, and visually appealing platform to showcase my skills.</p>
+                <a href="https://github.com/Dakshitj14/MyMealOnline" target="_blank">View Code</a>
+            </article>
+
+        </section>
+    </main>
+    <hr>
+
+    <footer>
+        <div class="footer">
+            <div class="first">
+                <h3>Dakshit's Developer Portfolio</h3>
+            </div>
+            <div class="second">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="#">More</a></li>
+                </ul>
+            </div>
+            <div class="third">
+                <ul><li><a href="https://www.instagram.com/dakshit_j14/">Instgram</a></li>
+                    <li><a href="https://x.com/DakshitJha">Twitter</a></li>
+                    <li><a href="https://www.threads.net/@dakshit_j14">Threads</a></li>
+                    <li><a href="https://www.linkedin.com/in/dakshit-jha-bb3977233/">linkedIn</a></li>
+                    <li><a href="https://github.com/Dakshitj14">GitHub</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-textcentre">
+            Copyright &#169 dakshit'sportfolio.com | All rights reserved.
+        </div>
+    </footer>
+</body>
+
+</html>
