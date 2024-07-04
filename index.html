@@ -100,7 +100,7 @@
         }
 
         .secondsection .box {
-            background-color: beige;
+            /* background-color: beige; */
             width: 80vw;
             height: 2px;
             margin: 56px 0;
@@ -112,7 +112,7 @@
         .secondsection .vertical {
             height: 93px;
             width: 1px;
-            background-color: bisque;
+            /* background-color: bisque; */
             margin: 0 99px;
 
         }
@@ -233,6 +233,87 @@
             background-color: black;
 
         }
+
+        @media (max-width: 768px) {
+            .left {
+                margin: 60px;
+                font-size: 1.8rem;
+            }
+
+            .firstsection {
+                flex-direction: column;
+                align-items: center;
+                margin: 50px 0;
+            }
+
+            .firstsection>div {
+                width: 10%;
+                min-width: 250px;
+            }
+
+            .secondsection {
+                max-width: 90vw;
+                height: 795px;
+            }
+
+            .secondsection .box {
+                display: flex;
+                flex-direction: column;
+                margin: 250px 170px;
+                justify-content: space-evenly;
+            }
+
+            .secondsection .vertical {
+                margin: 25px 0;
+                width: 80%;
+                text-align: center;
+            }
+
+            .leftsection {
+                margin-left: 60px;
+                font-size: 2rem;
+            }
+
+            .leftsection #connectbtn {
+                font-size: 16px;
+
+                align-content: center;
+            }
+
+            .rightsection img {
+                width: 100%;
+            }
+
+            nav ul {
+                margin: auto;
+                /* padding-top: 98vw;
+                padding-left: 50vw; */
+                flex-direction: row;
+                align-items: center;
+            }
+
+            nav ul li {
+                margin: 0 5px;
+            }
+
+            .footer {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .footer>div {
+                width: 100%;
+                text-align: center;
+                margin: 10px 0;
+            }
+
+            .imgtop {
+                width: 23px;
+                position: relative;
+                top: 111px;
+                left: -9px
+            }
+        }
     </style>
 </head>
 
@@ -343,7 +424,8 @@
                 </ul>
             </div>
             <div class="third">
-                <ul><li><a href="https://www.instagram.com/dakshit_j14/">Instgram</a></li>
+                <ul>
+                    <li><a href="https://www.instagram.com/dakshit_j14/">Instgram</a></li>
                     <li><a href="https://x.com/DakshitJha">Twitter</a></li>
                     <li><a href="https://www.threads.net/@dakshit_j14">Threads</a></li>
                     <li><a href="https://www.linkedin.com/in/dakshit-jha-bb3977233/">linkedIn</a></li>
