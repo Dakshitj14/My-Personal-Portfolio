@@ -21,9 +21,13 @@ This project was designed by me to let you all know about me a bit more. I made 
 
 ## ATTACHMENT OF SCREENSHOT 
 ![Projects _ Dakshit - Developer Portfolio - Google Chrome 14-07-2024 18_39_54](https://github.com/user-attachments/assets/e5ecc71f-d90f-4f52-89a1-fcee07c3124e)
+
 ![Contact Me _ Dakshit - Developer Portfolio - Google Chrome 14-07-2024 18_48_11](https://github.com/user-attachments/assets/e45065f3-55c6-4343-9466-4fbf9cbd3b4b)
+
+![Screenshot 2024-07-15 102327](https://github.com/user-attachments/assets/0ae0cd48-d8c6-4406-acc6-1c9b32c7200a)
+
 ![Contact Me _ Dakshit - Developer Portfolio - Google Chrome 14-07-2024 18_43_45](https://github.com/user-attachments/assets/83ca80c6-c0c6-42be-a25c-3eae8d578987)
-![Contact Me _ Dakshit - Developer Portfolio - Google Chrome 14-07-2024 18_43_30](https://github.com/user-attachments/assets/5f177b15-551a-4a47-8f18-70d691758c0d)
+
 
 
 
